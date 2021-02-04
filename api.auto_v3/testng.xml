@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- 套件 -->
+<suite name="futerloan" >
+<!-- 测试集/模块 -->
+ 	<test name="register">
+ 
+  <!-- 测试类 -->
+		<classes>
+ 			<!-- 对应的每个测试类 -->
+		       
+		      <class name="com.lemon.api.auto.RegisterCase2_v7"></class>
+		</classes>
+	</test> 
+
+  
+  
+</suite> <!-- Suite -->
