@@ -1,0 +1,10 @@
+
+
+区别于v2的
+这个附件里的’参数是用json格式的字符串‘表示的，利用fastjson插件读取json里的数据
+
+
+case_v1: Mobilephone(手机号)	Pword(密码)
+case_v2: paramers
+case_v3: apiId(接口编号)==1
+case_v4: 添加了接口编号===1、2
