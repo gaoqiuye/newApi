@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--控制是否执行并发操作： 方法一： parallel的取值有三个: 
+	1、tests TestNG 会在相同的线程中运行相同<test>标记下的所有方法，但是每个<test>下的方法会运行在不同的线程下。 
+	应用：可以将非线程安全的类放在同一个<test>标签下，并且使其可以利用TestNG多线程的特性的同时，让这些类运行在相同的线程中。（不太理解） 
+	2、methods TestNG 会在不同的线程中运行测试方法，除非那些互相依赖的方法。那些相互依赖的方法会运行在同一个线程中，并且遵照其执行顺序。 
+	3、classes TestNG 会在相同线程中相同类中的运行所有的方法，但是每个类都会用不同的线程运行 方法二： thread-count="5",最大并发数为5。 -->
+<suite name="Suite" parallel="none" thread-count="1">
+	<!--这里的parameter对全局有效 -->
+	<parameter name="clearNoTestData" value="true" />
+	<parameter name="b" value="bbb" />
+	<!--ReportNG监听/ -->
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="com.api.utils.ExtentTestNGIReporterListener"></listener>
+	</listeners>
+	<!-- preserve-order控制是否按照顺序来执行 ;verbose="2" 标识的就是记录的日志级别，共有0-10的级别，其中0表示无，10表示最详细 -->
+	<!--test-->
+	<test name="Test" preserve-order="true" verbose="10">
+		<classes>
+			<class name="com.api.test.ApiTest"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
