@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- 套件 -->
+<suite name="Suite" >
+<!-- 测试集 -->
+  <test name="Test">
+  	<groups>
+  		<run>
+  			<include name="g1"></include>
+  		</run>>
+  	</groups>
+  <!-- 测试集合 -->
+    <classes>
+    	<!-- 对应的每个测试类 -->
+   <!--    <class name="com.lemon.java.maven.day6.testNGdemo.Tester"/>
+      <class name="com.lemon.java.maven.day6.testNGdemo.Tester2"/> -->
+      <class name="com.lemon.java.maven.day6.testNGdemo.TestngParameterDemo"/>
+      <class name="com.lemon.java.maven.day6.testNGdemo.DataProviderDemo"/>
+       <class name="com.lemon.java.maven.day6.testNGdemo.GroupsDemo"/>
+    </classes>
+  </test> 
+  
+  <!-- 定义参数 -->
+  <parameter name="browserType" value="firefox"></parameter>
+  <parameter name="driverPath" value="src/test/aa"></parameter>
+  
+  
+</suite> <!-- Suite -->

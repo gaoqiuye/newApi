@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	 <student number="18001">
+	 	<Name>张三</Name>
+		<Age>28</Age>
+		<Gender>男</Gender>>
+	 </student>
+	 
+	 <student number="18002">
+	 	<Name>李四</Name>
+		<Age>25</Age>
+		<Gender>女</Gender>
+	 </student>
+	
+	 <student number="18003">
+	 	<Name>王晓</Name>
+		<Age>30</Age>
+		<Gender>女</Gender>
+	 </student>
+
+</students>
