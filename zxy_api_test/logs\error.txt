@@ -1,0 +1,39 @@
+2021-01-30 00:07:05 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【loadStatus==2】判断结果不正确！
+2021-01-30 00:07:05 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2021-01-30 00:07:15 ERROR com.api.common.HttpUtil.handleResponse(HttpUtil.java:356) - 请求出现异常，状态码为：422
+2021-01-30 00:07:15 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【responseCode==200】判断结果不正确！
+2021-01-30 00:07:15 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2021-01-30 00:07:15 ERROR com.api.common.HttpUtil.handleResponse(HttpUtil.java:356) - 请求出现异常，状态码为：422
+2021-01-30 00:07:15 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【responseCode==200】判断结果不正确！
+2021-01-30 00:07:15 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2021-01-30 00:07:15 ERROR com.api.common.HttpUtil.handleResponse(HttpUtil.java:356) - 请求出现异常，状态码为：422
+2021-01-30 00:07:15 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【responseCode==200】判断结果不正确！
+2021-01-30 00:07:15 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2021-01-30 00:07:16 ERROR com.api.common.HttpUtil.handleResponse(HttpUtil.java:356) - 请求出现异常，状态码为：422
+2021-01-30 00:07:16 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【responseCode==200】判断结果不正确！
+2021-01-30 00:07:16 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2021-01-30 00:07:16 ERROR com.api.common.HttpUtil.handleResponse(HttpUtil.java:356) - 请求出现异常，状态码为：422
+2021-01-30 00:07:16 ERROR com.api.utils.JsonUtil.handleJsonObjectStr(JsonUtil.java:209) - 接口返回的数据不存在：【items】！
+2021-01-30 00:07:16 ERROR com.api.utils.JsonUtil.handleJsonArrayStr(JsonUtil.java:234) - 【】字符串转换jsonArray格式异常！
+2021-01-30 00:07:16 ERROR com.api.utils.JsonUtil.handleJsonObjectStr(JsonUtil.java:212) - 【】字符串转换jsonObject格式异常！
+2021-01-30 00:07:16 ERROR com.api.utils.JsonUtil.handleJsonObjectStr(JsonUtil.java:209) - 接口返回的数据不存在：【items】！
+2021-01-30 00:07:16 ERROR com.api.utils.JsonUtil.handleJsonArrayStr(JsonUtil.java:234) - 【】字符串转换jsonArray格式异常！
+2021-01-30 00:07:16 ERROR com.api.utils.JsonUtil.handleJsonObjectStr(JsonUtil.java:212) - 【】字符串转换jsonObject格式异常！
+2021-01-30 00:07:16 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【responseCode==200】判断结果不正确！
+2021-01-30 00:07:16 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2021-01-30 00:07:16 ERROR com.api.utils.HandleUrlBodyUtil.handleApiUrl(HandleUrlBodyUtil.java:81) - courseMenuId保存的value是空值，请检查之前接口保存的参数是否正确！
+2021-01-30 00:07:16 ERROR com.api.common.HttpUtil.handleResponse(HttpUtil.java:356) - 请求出现异常，状态码为：422
+2021-01-30 00:07:16 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【responseCode==200】判断结果不正确！
+2021-01-30 00:07:16 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2021-01-30 00:07:18 ERROR com.api.common.HttpUtil.handleResponse(HttpUtil.java:356) - 请求出现异常，状态码为：422
+2021-01-30 00:07:18 ERROR com.api.utils.JsonUtil.handleJsonArrayStr(JsonUtil.java:234) - 【{"extend":{},"errorCode":900001,"message":"Invalid input.","error":0,"url":""}】字符串转换jsonArray格式异常！
+2021-01-30 00:07:18 ERROR com.api.utils.JsonUtil.handleJsonObjectStr(JsonUtil.java:212) - 【】字符串转换jsonObject格式异常！
+2021-01-30 00:07:18 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【responseCode==200】判断结果不正确！
+2021-01-30 00:07:18 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2021-01-30 00:07:20 ERROR com.api.utils.HandleUrlBodyUtil.handleBody(HandleUrlBodyUtil.java:139) - 之前的请求中没有保存【menuId_2】参数及其对应的值，无法重新构建请求的Body!
+2021-01-30 00:07:20 ERROR com.api.utils.HandleUrlBodyUtil.handleBody(HandleUrlBodyUtil.java:139) - 之前的请求中没有保存【menuId_1】参数及其对应的值，无法重新构建请求的Body!
+2021-01-30 00:07:20 ERROR com.api.utils.HandleUrlBodyUtil.handleBody(HandleUrlBodyUtil.java:139) - 之前的请求中没有保存【menuId_2】参数及其对应的值，无法重新构建请求的Body!
+2021-01-30 00:07:22 ERROR com.api.common.HttpUtil.handleResponse(HttpUtil.java:356) - 请求出现异常，状态码为：422
+2021-01-30 00:07:22 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【responseCode==200】判断结果不正确！
+2021-01-30 00:07:22 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2021-01-30 00:08:24 ERROR com.api.utils.JsonUtil.handleJsonObjectStr(JsonUtil.java:209) - 接口返回的数据不存在：【email】！

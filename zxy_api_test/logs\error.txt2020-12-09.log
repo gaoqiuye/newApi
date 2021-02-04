@@ -1,0 +1,6 @@
+2020-12-09 18:09:29 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【loadStatus==2】判断结果不正确！
+2020-12-09 18:09:29 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2020-12-09 18:30:18 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【loadStatus==2】判断结果不正确！
+2020-12-09 18:30:18 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2020-12-09 19:04:05 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【loadStatus==2】判断结果不正确！
+2020-12-09 19:04:05 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】

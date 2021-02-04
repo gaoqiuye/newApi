@@ -1,0 +1,7 @@
+2021-01-02 15:35:36 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【loadStatus==2】判断结果不正确！
+2021-01-02 15:35:36 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2021-01-02 18:04:07 ERROR com.api.utils.AssertsUtil.compareResult(AssertsUtil.java:45) - 【loadStatus==2】判断结果不正确！
+2021-01-02 18:04:07 ERROR com.api.test.ApiTest.apiTestMethod(ApiTest.java:147) - 执行结果 :【 Fail 】
+2021-01-02 18:04:21 ERROR com.api.utils.HandleUrlBodyUtil.handleBody(HandleUrlBodyUtil.java:139) - 之前的请求中没有保存【menuId_2】参数及其对应的值，无法重新构建请求的Body!
+2021-01-02 18:04:22 ERROR com.api.utils.HandleUrlBodyUtil.handleBody(HandleUrlBodyUtil.java:139) - 之前的请求中没有保存【menuId_1】参数及其对应的值，无法重新构建请求的Body!
+2021-01-02 18:04:22 ERROR com.api.utils.HandleUrlBodyUtil.handleBody(HandleUrlBodyUtil.java:139) - 之前的请求中没有保存【menuId_2】参数及其对应的值，无法重新构建请求的Body!
